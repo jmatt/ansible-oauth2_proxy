@@ -1,0 +1,21 @@
+galaxy_info:
+  author: J. Matt Peterson
+  description: LSST SQuaRE's oauth2_proxy packages.
+  company: LSST SQuaRE
+  issue_tracker_url: https://github.com/lsst-sqre/ansible-oauth2_proxy/issues
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+      - 7
+  - name: Ubuntu
+    versions:
+      - trusty
+      - xenial
+  galaxy_tags:
+    - system
+    - web
+    - centos
+    - ubuntu
+dependencies: []
