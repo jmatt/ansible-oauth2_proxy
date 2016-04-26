@@ -1,7 +1,5 @@
 ---
 
-oauth2_proxy_client_id: ""
-oauth2_proxy_cookie_secret: ""
 oauth2_proxy_cookie_domain: ""
 oauth2_proxy_github_org: ""
 oauth2_proxy_upstreams: [""]
