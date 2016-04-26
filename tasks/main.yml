@@ -38,9 +38,11 @@
 
 - name: Create the service file.
   template: src=oauth2_proxy.j2 dest=/etc/init.d/oauth2_proxy mode="0755"
-  
+  when: ansible_service_mgr == "upstart" or ansible_service_mgr == "sysvinit"
+
 - name: Create the systemd service file.
   template: src=oauth2_proxy.service.j2 dest=/lib/systemd/system/oauth2_proxy.service
+  when: ansible_service_mgr == "systemd"
 
 - name: Start the oauth2_proxy service.
   service: name=oauth2_proxy state=restarted
