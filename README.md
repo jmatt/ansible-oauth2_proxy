@@ -1,7 +1,7 @@
 ansible-oauth2_proxy
 ====================
 
-[![Build Status](https://travis-ci.org/jmatt/ansible-oauth2_proxy.svg?branch=master)](https://travis-ci.org/jmatt/ansible-oauth2_proxy)
+[![Build Status](https://travis-ci.org/lsst-sqre/ansible-oauth2_proxy.svg?branch=master)](https://travis-ci.org/lsst-sqre/ansible-oauth2_proxy)
 
 Install and configure [oauth2_proxy](https://github.com/bitly/oauth2_proxy) for LSST SQuaRE infrastructure.
 
@@ -10,7 +10,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: jmatt.oauth2_proxy }
+         - { role: lsst-sqre.oauth2_proxy }
 
 Variables
 ---------
