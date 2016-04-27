@@ -3,7 +3,7 @@
 oauth2_proxy_cookie_expire: "730h"
 oauth2_proxy_cookie_name: "_oauth2_proxy"
 oauth2_proxy_cookie_secure: true
-oauth2_proxy_email_domains: ["*"]
+oauth2_proxy_email_domains: "['*']"
 oauth2_proxy_pass_access_token: false
 oauth2_proxy_pass_host_header: true
 oauth2_proxy_provider: "github"
